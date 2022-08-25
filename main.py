@@ -22,7 +22,6 @@ def check(guess, word_completion, word):
 
 def play(word):
     print(word[0])
-    print(word)
     word_completion = "_" * len(word)
     tries = 6
     guessed = False
